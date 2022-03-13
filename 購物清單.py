@@ -1,0 +1,6 @@
+n = input("輸入購物清單")
+t = n.split(" ")
+print(t,"刪除清單項目")
+a = input("輸入要刪除的")
+t.remove(a)
+print(t)
